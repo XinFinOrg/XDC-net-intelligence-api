@@ -1,0 +1,56 @@
+[
+    {
+      "name"              : "node-app-1",
+      "cwd"               : "",
+      "script"            : "app.js",
+      "log_date_format"   : "YYYY-MM-DD HH:mm Z",
+      "log_file"          : "node-app-1-log.log",
+      "out_file"          : "node-app-1-out.log",
+      "error_file"        : "node-app-1-err.log",
+      "merge_logs"        : false,
+      "watch"             : false,
+      "max_restarts"      : 10,
+      "exec_interpreter"  : "node",
+      "exec_mode"         : "fork_mode",
+      "env":
+      {
+        "NODE_ENV"        : "production",
+        "RPC_HOST"        : "localhost",
+        "RPC_PORT"        : "22001",
+        "LISTENING_PORT"  : "21001",
+        "INSTANCE_NAME"   : "XDC Node-01",
+        "CONTACT_DETAILS" : "http://xinfin.org/",
+        "WS_SERVER"       : "ws://localhost:3000",
+        "WS_SECRET"       : "xinfin_secret_123",
+        "VERBOSITY"       : 2
+      }
+    },
+  
+   {
+      "name"              : "node-app-2",
+      "cwd"               : "",
+      "script"            : "app.js",
+      "log_date_format"   : "YYYY-MM-DD HH:mm Z",
+      "log_file"          : "node-app-2-log.log",
+      "out_file"          : "node-app-2-out.log",
+      "error_file"        : "node-app-2-err.log",
+      "merge_logs"        : false,
+      "watch"             : false,
+      "max_restarts"      : 10,
+      "exec_interpreter"  : "node",
+      "exec_mode"         : "fork_mode",
+      "env":
+      {
+        "NODE_ENV"        : "production",
+        "RPC_HOST"        : "localhost",
+        "RPC_PORT"        : "22002",
+        "LISTENING_PORT"  : "21002",
+        "INSTANCE_NAME"   : "XDC Node-02",
+        "CONTACT_DETAILS" : "http://xinfin.org/",
+        "WS_SERVER"       : "ws://localhost:3000",
+        "WS_SECRET"       : "xinfin_secret_123",
+        "VERBOSITY"       : 2
+      }
+    }
+  
+  ]
