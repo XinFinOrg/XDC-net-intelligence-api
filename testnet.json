@@ -1,0 +1,109 @@
+[
+    {
+      "name"              : "node-app-1",
+      "cwd"               : "",
+      "script"            : "app.js",
+      "log_date_format"   : "YYYY-MM-DD HH:mm Z",
+      "log_file"          : "node-app-1-log.log",
+      "out_file"          : "node-app-1-out.log",
+      "error_file"        : "node-app-1-err.log",
+      "merge_logs"        : false,
+      "watch"             : false,
+      "max_restarts"      : 10,
+      "exec_interpreter"  : "node",
+      "exec_mode"         : "fork_mode",
+      "env":
+      {
+        "NODE_ENV"        : "production",
+        "RPC_HOST"        : "5.152.223.197",
+        "RPC_PORT"        : "8545",
+        "LISTENING_PORT"  : "21001",
+        "INSTANCE_NAME"   : "XinFin-HQ-1",
+        "CONTACT_DETAILS" : "http://xinfin.org/",
+        "WS_SERVER"       : "ws://localhost:3001",
+        "WS_SECRET"       : "xinfin_network_stats",
+        "VERBOSITY"       : 2
+      }
+    },
+  
+   {
+      "name"              : "node-app-2",
+      "cwd"               : "",
+      "script"            : "app.js",
+      "log_date_format"   : "YYYY-MM-DD HH:mm Z",
+      "log_file"          : "node-app-2-log.log",
+      "out_file"          : "node-app-2-out.log",
+      "error_file"        : "node-app-2-err.log",
+      "merge_logs"        : false,
+      "watch"             : false,
+      "max_restarts"      : 10,
+      "exec_interpreter"  : "node",
+      "exec_mode"         : "fork_mode",
+      "env":
+      {
+        "NODE_ENV"        : "production",
+        "RPC_HOST"        : "5.152.223.197",
+        "RPC_PORT"        : "8556",
+        "LISTENING_PORT"  : "21002",
+        "INSTANCE_NAME"   : "XinFin-HQ-AWS-2",
+        "CONTACT_DETAILS" : "http://xinfin.org/",
+        "WS_SERVER"       : "ws://localhost:3001",
+        "WS_SECRET"       : "xinfin_network_stats",
+        "VERBOSITY"       : 2
+      }
+    },
+{
+      "name"              : "node-app-3",
+      "cwd"               : "",
+      "script"            : "app.js",
+      "log_date_format"   : "YYYY-MM-DD HH:mm Z",
+      "log_file"          : "node-app-3-log.log",
+      "out_file"          : "node-app-3-out.log",
+      "error_file"        : "node-app-3-err.log",
+      "merge_logs"        : false,
+      "watch"             : false,
+      "max_restarts"      : 10,
+      "exec_interpreter"  : "node",
+      "exec_mode"         : "fork_mode",
+      "env":
+      {
+        "NODE_ENV"        : "production",
+        "RPC_HOST"        : "5.152.223.197",
+        "RPC_PORT"        : "8547",
+        "LISTENING_PORT"  : "21003",
+        "INSTANCE_NAME"   : "IndSoft_Systems",
+        "CONTACT_DETAILS" : "http://indsoftnet/",
+        "WS_SERVER"       : "ws://localhost:3001",
+        "WS_SECRET"       : "xinfin_network_stats",
+        "VERBOSITY"       : 2
+      }
+    },
+  
+   {
+      "name"              : "node-app-4",
+      "cwd"               : "",
+      "script"            : "app.js",
+      "log_date_format"   : "YYYY-MM-DD HH:mm Z",
+      "log_file"          : "node-app-4-log.log",
+      "out_file"          : "node-app-4-out.log",
+      "error_file"        : "node-app-4-err.log",
+      "merge_logs"        : false,
+      "watch"             : false,
+      "max_restarts"      : 10,
+      "exec_interpreter"  : "node",
+      "exec_mode"         : "fork_mode",
+      "env":
+      {
+        "NODE_ENV"        : "production",
+        "RPC_HOST"        : "5.152.223.197",
+        "RPC_PORT"        : "8548",
+        "LISTENING_PORT"  : "21004",
+        "INSTANCE_NAME"   : "Airnetz-India",
+        "CONTACT_DETAILS" : "https://www.airnetz.com/",
+        "WS_SERVER"       : "ws://localhost:3001",
+        "WS_SECRET"       : "xinfin_network_stats",
+        "VERBOSITY"       : 2
+      }
+    }
+  
+  ]
